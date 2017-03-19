@@ -39,8 +39,6 @@ THIRD_PARTY_APPS = (
 
 # Apps specific for this project go here.
 LOCAL_APPS = (
-    # custom users app
-    '{{ cookiecutter.project_slug }}.users.apps.UsersConfig',
     # Your stuff: custom apps go here
 )
 

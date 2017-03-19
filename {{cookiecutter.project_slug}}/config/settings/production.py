@@ -1,16 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Production Configurations
-
-- Use Amazon's S3 for storing static files and uploaded media
 - Use mailgun to send emails
-- Use Redis for cache
-{% if cookiecutter.use_sentry_for_error_reporting == 'y' %}
-- Use sentry for error logging
-{% endif %}
-{% if cookiecutter.use_opbeat == 'y' %}
-- Use opbeat for error reporting
-{% endif %}
 """
 from __future__ import absolute_import, unicode_literals
 from .common import *  # noqa
