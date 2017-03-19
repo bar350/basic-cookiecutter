@@ -1,0 +1,10 @@
+{
+  "name": "{{cookiecutter.project_slug}}",
+  "version": "{{ cookiecutter.version }}",
+  "dependencies": {},
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
